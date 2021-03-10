@@ -1,0 +1,216 @@
+{
+	"info": {
+		"_postman_id": "a4afd75f-a280-49c0-99d8-baf84e946201",
+		"name": "Nivell2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/paises",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/paises",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"paises"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/paises",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/paises/Andorra",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"paises",
+						"Andorra"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/paises",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/paises/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"paises",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/paises",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/paises/Andorra",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"paises",
+						"Andorra"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/paises",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/paises/Andorra",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"paises",
+						"Andorra"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/paises/Francia/departamentos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/paises/Francia/departamentos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"paises",
+						"Francia",
+						"departamentos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/paises/Francia/departamentos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/paises/Francia/departamentos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"paises",
+						"Francia",
+						"departamentos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/paises/Francia/departamentos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/paises/Francia/departamentos/Aude",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"paises",
+						"Francia",
+						"departamentos",
+						"Aude"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/paises/Francia/departamentos",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/paises/Francia/departamentos/Aude",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"paises",
+						"Francia",
+						"departamentos",
+						"Aude"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/paises/Francia/departamentos",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/paises/Francia/departamentos/Aude",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"paises",
+						"Francia",
+						"departamentos",
+						"Aude"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
