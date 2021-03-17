@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>catalog-index</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/js/uikit-icons.min.js"></script>
+</head>
+<body>
+    <nav class="uk-navbar-container uk-margin" uk-navbar>
+        <div class="uk-navbar-center">
+
+            <div class="uk-navbar-center-left"><div>
+                <ul class="uk-navbar-nav">
+                    <li class=""><a href="http://localhost:8000">Home</a></li>
+                    <li>
+                        <li class=""><a href="http://localhost:8000/catalog">Catalog</a></li>
+                    </li>
+                </ul>
+            </div></div>
+            <a class="uk-navbar-item uk-logo" href="#"><img src="http://localhost:8000/assets/images/book.png" width="80" alt=""></a>
+            <div class="uk-navbar-center-right"><div>
+                <ul class="uk-navbar-nav">
+                    <li><a href="http://localhost:8000/login">Login</a></li>
+
+                </ul>
+            </div></div>
+
+        </div>
+    </nav>
+
+    <div class="uk-container"></div>
+<div class="uk-card uk-margin-medium-top uk-card-default uk-card-body uk-width-1-1@m">
+
+    <h3 class="uk-card-title">Vista de tots els llibres</h3>
+    <a href="http://localhost:8000/catalog/create" class="uk-button">Afegir llibre</a>
+    <table class="uk-table">
+        <caption>Tots els llibres</caption>
+        <thead>
+            <tr>
+                <th>Titol</th>
+                <th>Autor</th>
+                <th>Editorial</th>
+                <th>Veure</th>
+                <th>Editar</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td><a href="http://localhost:8000/catalog/show" class="uk-button uk-button-small uk-button-primary">Veure</a></td>
+                <td><a href="http://localhost:8000/catalog/edit" class="uk-button uk-button-small uk-button-secondary">Editar</a></td>
+                <td><a href="" class="uk-button uk-button-small uk-button-danger">Eliminar</a></td>
+            </tr>
+            <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td><a href="" class="uk-button">Veure</a></td>
+                <td><a href="" class="uk-button">Editar</a></td>
+                <td><a href="" class="uk-button">Eliminar</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+
+    <div class="uk-container uk-text-center uk-margin-medium-top">
+        <p class="uk-text-italic">Albert Sans 2021</p>
+    </div>
+</body>
+</html>

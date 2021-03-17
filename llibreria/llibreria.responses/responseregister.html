@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>register</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/js/uikit-icons.min.js"></script>
+</head>
+<body>
+    <nav class="uk-navbar-container uk-margin" uk-navbar>
+        <div class="uk-navbar-center">
+
+            <div class="uk-navbar-center-left"><div>
+                <ul class="uk-navbar-nav">
+                    <li class=""><a href="http://localhost:8000">Home</a></li>
+                    <li>
+                        <li class=""><a href="http://localhost:8000/catalog">Catalog</a></li>
+                    </li>
+                </ul>
+            </div></div>
+            <a class="uk-navbar-item uk-logo" href="#"><img src="http://localhost:8000/assets/images/book.png" width="80" alt=""></a>
+            <div class="uk-navbar-center-right"><div>
+                <ul class="uk-navbar-nav">
+                    <li><a href="http://localhost:8000/login">Login</a></li>
+
+                </ul>
+            </div></div>
+
+        </div>
+    </nav>
+
+    <div class="uk-container">
+    <div class="uk-flex uk-margin uk-text-center">
+    <div class="uk-margin-auto uk-margin-auto-vertical uk-width-1-2@s uk-card uk-card-default uk-card-body">
+        <form action="" method="POST">
+            <input type="hidden" name="_token" value="KvMpLGhOdiiQbVxl8XdDEErt2lBHJtbh0oDX5dmB">
+            <fieldset class="uk-fieldset">
+
+                <legend class="uk-legend">Register</legend>
+                <div class="uk-margin">
+                    <input class="uk-input" name="name" type="text" placeholder="Name" value="">
+                    <span class="uk-text-danger"></span>
+                </div>
+
+                <div class="uk-margin">
+                    <input class="uk-input" name="email" type="email" value="" placeholder="Email">
+                    <span class="uk-text-danger"></span>
+                </div>
+
+                <div class="uk-margin">
+                    <input class="uk-input" name="password" value="" type="password" placeholder="Password">
+                    <span class="uk-text-danger"></span>
+                </div>
+
+                <div class="uk-margin">
+                    <input class="uk-button "  type="submit" value="Register">
+                </div>
+
+
+
+            </fieldset>
+        </form>
+    </div>
+</div>
+</div>
+
+    <div class="uk-container uk-text-center uk-margin-medium-top">
+        <p class="uk-text-italic">Albert Sans 2021</p>
+    </div>
+</body>
+</html>
