@@ -1,0 +1,145 @@
+{
+	"shops": [
+		{
+			"id": 1,
+			"name": "Prof. Emmitt Klocko",
+			"capacity": 16,
+			"created_at": "2021-04-29T13:40:13.000000Z",
+			"updated_at": "2021-04-29T13:40:13.000000Z"
+		},
+		{
+			"id": 2,
+			"name": "Daphnee Lueilwitz",
+			"capacity": 15,
+			"created_at": "2021-04-29T13:40:13.000000Z",
+			"updated_at": "2021-04-29T13:40:13.000000Z"
+		},
+		{
+			"id": 3,
+			"name": "Gregorio Prohaska",
+			"capacity": 18,
+			"created_at": "2021-04-29T13:40:13.000000Z",
+			"updated_at": "2021-04-29T13:40:13.000000Z"
+		},
+		{
+			"id": 4,
+			"name": "Ashton Pollich",
+			"capacity": 15,
+			"created_at": "2021-04-29T13:40:14.000000Z",
+			"updated_at": "2021-04-29T13:40:14.000000Z"
+		},
+		{
+			"id": 5,
+			"name": "Prof. Oswaldo Rolfson III",
+			"capacity": 19,
+			"created_at": "2021-04-29T13:40:14.000000Z",
+			"updated_at": "2021-04-29T13:40:14.000000Z"
+		},
+		{
+			"id": 6,
+			"name": "Prof. Ervin Bernhard",
+			"capacity": 18,
+			"created_at": "2021-04-29T13:40:14.000000Z",
+			"updated_at": "2021-04-29T13:40:14.000000Z"
+		},
+		{
+			"id": 7,
+			"name": "Shaniya Smith",
+			"capacity": 16,
+			"created_at": "2021-04-29T13:40:14.000000Z",
+			"updated_at": "2021-04-29T13:40:14.000000Z"
+		},
+		{
+			"id": 8,
+			"name": "Mrs. Sienna Cruickshank PhD",
+			"capacity": 20,
+			"created_at": "2021-04-29T13:40:15.000000Z",
+			"updated_at": "2021-04-29T13:40:15.000000Z"
+		},
+		{
+			"id": 9,
+			"name": "Dayana Funk",
+			"capacity": 20,
+			"created_at": "2021-04-29T13:40:15.000000Z",
+			"updated_at": "2021-04-29T13:40:15.000000Z"
+		},
+		{
+			"id": 10,
+			"name": "Kevon Ondricka",
+			"capacity": 15,
+			"created_at": "2021-04-29T13:40:15.000000Z",
+			"updated_at": "2021-04-29T13:40:15.000000Z"
+		},
+		{
+			"id": 11,
+			"name": "Price Dare DDS",
+			"capacity": 17,
+			"created_at": "2021-04-29T13:40:15.000000Z",
+			"updated_at": "2021-04-29T13:40:15.000000Z"
+		},
+		{
+			"id": 12,
+			"name": "Rene Bailey",
+			"capacity": 15,
+			"created_at": "2021-04-29T13:40:15.000000Z",
+			"updated_at": "2021-04-29T13:40:15.000000Z"
+		},
+		{
+			"id": 13,
+			"name": "Filomena Zboncak",
+			"capacity": 16,
+			"created_at": "2021-04-29T13:40:15.000000Z",
+			"updated_at": "2021-04-29T13:40:15.000000Z"
+		},
+		{
+			"id": 14,
+			"name": "Ambrose Ebert",
+			"capacity": 19,
+			"created_at": "2021-04-29T13:40:15.000000Z",
+			"updated_at": "2021-04-29T13:40:15.000000Z"
+		},
+		{
+			"id": 15,
+			"name": "Monserrate Welch",
+			"capacity": 15,
+			"created_at": "2021-04-29T13:40:16.000000Z",
+			"updated_at": "2021-04-29T13:40:16.000000Z"
+		},
+		{
+			"id": 16,
+			"name": "Emilie Kovacek",
+			"capacity": 17,
+			"created_at": "2021-04-29T13:40:16.000000Z",
+			"updated_at": "2021-04-29T13:40:16.000000Z"
+		},
+		{
+			"id": 17,
+			"name": "Mustafa Hagenes",
+			"capacity": 17,
+			"created_at": "2021-04-29T13:40:16.000000Z",
+			"updated_at": "2021-04-29T13:40:16.000000Z"
+		},
+		{
+			"id": 18,
+			"name": "Prof. Francesca Rau",
+			"capacity": 16,
+			"created_at": "2021-04-29T13:40:16.000000Z",
+			"updated_at": "2021-04-29T13:40:16.000000Z"
+		},
+		{
+			"id": 19,
+			"name": "Jerry Lesch",
+			"capacity": 19,
+			"created_at": "2021-04-29T13:40:16.000000Z",
+			"updated_at": "2021-04-29T13:40:16.000000Z"
+		},
+		{
+			"id": 20,
+			"name": "Josefa Nolan MD",
+			"capacity": 20,
+			"created_at": "2021-04-29T13:40:16.000000Z",
+			"updated_at": "2021-04-29T13:40:16.000000Z"
+		}
+	],
+	"message": "Retrieved successfully"
+}
