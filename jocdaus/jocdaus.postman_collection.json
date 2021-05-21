@@ -583,7 +583,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8000/api/auth/players/ranking/lost",
+			"name": "http://localhost:8000/api/auth/players/4/win",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -610,7 +610,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/api/auth/players/ranking/lost",
+					"raw": "http://localhost:8000/api/auth/players/4/win",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -620,8 +620,8 @@
 						"api",
 						"auth",
 						"players",
-						"ranking",
-						"lost"
+						"4",
+						"win"
 					]
 				}
 			},

@@ -31,4 +31,6 @@ Route::group([
     Route::post('players/{id}/games', [GameController::class,'store']);
     Route::get('players/ranking/win', [GameController::class,'rankingWin']);
     Route::get('players/ranking/lost', [GameController::class,'rankingLost']);
+    Route::get('players/{id}/win', [GameController::class,'playerRankingWin']);
+
 });

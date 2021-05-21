@@ -107,17 +107,23 @@ class GameController extends Controller
         //
     }
     public function rankingWin(){
-        $rankings =Game::all()->where('resultado','WIN');
+        $rankings =Game::all()->where('tirada',7);
         foreach($rankings as $ranking){
          echo ($ranking);
         }
 
     }
     public function rankingLost(){
-        $rankings =Game::all()->where('resultado','LOST');
+        $rankings =Game::all()->where('tirada','!=',7);
         foreach($rankings as $ranking){
          echo ($ranking);
         }
+
+    }
+    public function playerRankingWin($id){
+        $games = Game::all()->where('player_id',$id)->count();
+        $wins = Game::all()->where('player_id',$id)->where('tirada',7)->count();
+        echo 'Tu eficacia es del  '.$wins*100/$games. ' '.'%';
 
     }
 }
